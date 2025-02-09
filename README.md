@@ -82,7 +82,5 @@ docker-compose up --build
 ## Contributions
 Feel free to fork and contribute! 🚀
 
----
 
 💡 **Built with ❤️ by Shubham**
-```
