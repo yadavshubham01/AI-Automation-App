@@ -14,7 +14,7 @@ async def authenticate_websocket(websocket: WebSocket):
         return None
     return user
 
-@router.websocket("/ws/")
+@router.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
     user =await authenticate_websocket(websocket)
